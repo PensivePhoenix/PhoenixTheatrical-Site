@@ -9,6 +9,7 @@ layout: default
     max-width: 600px;
     text-align: center;
   }
+
   h1 {
     margin: 30px 0;
     font-size: 4em;
@@ -18,8 +19,22 @@ layout: default
 </style>
 
 <div class="container">
-  <h1>404</h1>
+  <h1 style="color:red;">Well, that's Unfortunate :(</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p style="color:#4A5456;""><b>Error 404: Page not found </b></p>
+  <p style=" color:#4A5456;"><em>Sorry, the requested page or resource could not be found</em></p>
+
+  <!-- <p style="color:blue; line-height: 100px;padding: auto">
+    Please head to the
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      home
+    </a>
+    page
+  </p> -->
+
+  <p>Please head back to the 
+    <a href="{{ "/" | relative_url }}" style="text-decoration:underline;">
+        homepage!
+      </a>
+    </p>
 </div>
