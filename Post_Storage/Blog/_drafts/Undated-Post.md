@@ -1,8 +1,8 @@
 ---
 layout: post-undated
-title:  "Post With Image"
-image: /AllPosts/assets/images/image1.jpeg
-date: 2024-12-07
+title:  
+image: 
+date: YYYY-MM-DD
 excerpt:
 seo_title:
 seo_description:
