@@ -12,7 +12,7 @@ With a deep passion for understanding complex systems, Bryce thrives on finding 
 Bryce's curiosity and drive for continuous learning have been key to their success in various projects. One notable example is their quick mastery of the Watchout media server. After just one day of shadowing a programmer, Bryce took the reins and successfully programmed a show on their own. -->
 
 <div>
-<img src="{{ site.url }}/images/Headshot_BW.png" width="300"/>
+<img src="{{site.baseurl}}/images/Headshot_BW.png" width="300"/>
 </div>
 
 Bryce Bienz is a junior at Point Park University in Pittsburgh, where they are studying Theatrical Production with a concentration in Technical Design and Management. Originally from Wyoming, Bryce’s career in theater began at a young age, hauling audio equipment for family music performances and community events. In high school, they expanded their interests by working with the drama department as a sound designer and mixer for musicals.
@@ -26,6 +26,6 @@ When not immersed in tech, Bryce enjoys outdoor activities like hiking, swimming
 Bryce is currently working as a freelance lighting designer/programmer, mix engineer, and video programmer and is always interested in a challenge. Reach out to <a href="mailto:bryce.bienz@phoenixtheatrical.com">bryce.bienz@phoenixtheatrical.com</a> to connect!
 
 # Resume
-<iframe src="{{ site.url }}/PDFs/BryceBienz_Resume.pdf" width="600" height="800" allow="autoplay"></iframe>
+<iframe src="{{site.baseurl}}/PDFs/BryceBienz_Resume.pdf" width="600" height="800" allow="autoplay"></iframe>
 
 <!-- [get the PDF of my resume here!]({{ site.url }}/PDFs/BryceBienz_Resume.pdf) -->
