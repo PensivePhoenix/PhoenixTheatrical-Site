@@ -3,9 +3,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  <!-- ICONS -->
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicons/favicon.svg" />
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="PXTheatrical" />
+  <link rel="manifest" href="/images/favicons/site.webmanifest" />
+  <!-- END ICONS -->
+
+  <!-- StyleSheets -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <!-- END StyleSheets -->
+
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
