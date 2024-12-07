@@ -30,7 +30,7 @@ url: "pensivephoenix.github.io" # the base hostname & protocol for your site, e.
 linkedin_username: bryce-bienz
 github_username:  PensivePhoenix
 
-
+show_excerpts: false
 # Build settings
 plugins:
   - jekyll-feed

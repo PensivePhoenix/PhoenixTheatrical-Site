@@ -3,3 +3,22 @@
 ---
 
 @import "phoenix";
+
+
+// Float Specifiers for images
+img[src*='#left'] {
+    float: left;
+  }
+  img[src*='#right'] {
+    float: right;
+  }
+  img[src*='#center'] {
+    display: block;
+    margin: auto;
+  }
+  
+  img[alt="Headshot_about"] { 
+    max-height: 20rem; 
+    margin-right: 1em;
+    display: block;
+  }

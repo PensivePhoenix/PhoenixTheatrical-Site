@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Sound
-permalink: /Sound/
+title: Blog
+permalink: /Blog/
 ---
 
 <ul class="post-list">
-  {% for post in site.categories.sound %}
+  {% for post in site.categories.blog %}
     <li>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -17,7 +17,8 @@ permalink: /Sound/
     {%- else -%}
         {%- assign postImage = "" -%}
     {%- endif -%}
-
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
     </li>
   {% endfor %}
 </ul>
