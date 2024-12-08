@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  
+venue:
+location:
 image: 
 date: YYYY-MM-DD
 excerpt:

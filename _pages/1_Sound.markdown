@@ -12,12 +12,14 @@ permalink: /Sound/
             {{ post.title | escape }}
           </a>
         </h3>
+        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
+        <span class="post-meta"><!-- {{ post.date | date: date_format }} --- -->{{ post.venue | escape}} --- {{ post.location | escape }}</span>
+        <br />
     {%- if post.image -%}
         <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
     {%- else -%}
         {%- assign postImage = "" -%}
     {%- endif -%}
-
     </li>
   {% endfor %}
 </ul>

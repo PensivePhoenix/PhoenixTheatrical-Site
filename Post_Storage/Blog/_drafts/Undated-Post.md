@@ -1,6 +1,8 @@
 ---
 layout: post-undated
 title:  
+venue:
+location:
 image: 
 date: YYYY-MM-DD
 excerpt:
