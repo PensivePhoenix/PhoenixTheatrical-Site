@@ -24,9 +24,9 @@ email: bryce.bienz@phoenixtheatrical.com
 description: >- # this means to ignore newlines until "baseurl:"
   Bryce Bienz (They/Them) is a theatrical professional focusing in Lights, Sound, and Projections.
   They have experience working with various systems and products, enabling them to work in many different spaces and venues.
-baseurl: "/PhoenixTheatrical-Site" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 
-url: "pensivephoenix.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://phoenixtheatrical.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: bryce-bienz
 github_username:  PensivePhoenix
 
