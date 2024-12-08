@@ -1,14 +1,18 @@
 ---
 layout: post
-title: 
+title:  
 image: 
 date: YYYY-MM-DD
 excerpt:
 seo_title:
 seo_description:
 tags:
-category:
+categories: 
+ - sound
+ - show
+gallery: /images/galleries/GALLERYNAME
 ---
+
 
 # Header for Post
 Content
