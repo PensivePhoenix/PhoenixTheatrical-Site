@@ -31,12 +31,15 @@ linkedin_username: bryce-bienz
 github_username:  PensivePhoenix
 
 show_excerpts: false
+
 # Build settings
 plugins:
   - jekyll-feed
 
 include:
   - _pages
+
+imagesurl: "/images/galleries/"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
