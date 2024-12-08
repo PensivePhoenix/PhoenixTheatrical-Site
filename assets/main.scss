@@ -34,6 +34,7 @@ img[src*='#left'] {
 .attributions {
     margin-bottom: $spacing-unit;
     width: 50%;
+    min-width: 300px;
     text-align: left;
     color: $text-color;
     border-collapse: collapse;
