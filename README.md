@@ -1,2 +1,4 @@
 # PhoenixTheatrical-Site
- Teaching a Silly goose how to use git (and Jekyll)
+This repository holds the website build for my personal professional website
+
+Built using the Jekyll minima theme with some adjustments
