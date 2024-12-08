@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Headshot_about]({{ '/images/Headshot_BW.png' | relative_url }}#left)
+![Headshot_about]({{ '/images/Headshot.png' | relative_url }}#left)
 
 Bryce Bienz is a junior at Point Park University in Pittsburgh, where they are studying Theatrical Production with a concentration in Technical Design and Management. Originally from Wyoming, Bryce’s career in theater began at a young age, hauling audio equipment for family music performances and community events. In high school, they expanded their interests by working with the drama department as a sound designer and mix engineer for musicals.
 
