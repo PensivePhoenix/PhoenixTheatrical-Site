@@ -8,7 +8,7 @@ layout: home
 <h1> See my most recent Show <h1>
 
 <ul class="post-list">
-  {% for post in site.categories.show limit:1 %}
+  {% for post in site.categories.show limit:10 %}
     <li>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -19,7 +19,7 @@ layout: home
         <span class="post-meta">{{ post.date | date: date_format }} --- {{ post.venue | escape}} --- {{ post.location | escape }}</span>
         <br />
     {%- if post.image -%}
-        <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
+      <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{- post.image | relative_url -}}" alt="" class="post-image"></a>
     {%- else -%}
         {%- assign postImage = "" -%}
     {%- endif -%}
