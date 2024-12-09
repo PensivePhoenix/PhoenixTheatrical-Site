@@ -18,3 +18,6 @@ gallery: /images/galleries/GALLERYNAME
 
 # Header for Post
 Content
+
+
+{% include image-gallery.html folder=page.gallery %}

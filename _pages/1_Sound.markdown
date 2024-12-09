@@ -16,7 +16,7 @@ permalink: /Sound/
         <span class="post-meta"><!-- {{ post.date | date: date_format }} --- -->{{ post.venue | escape}} --- {{ post.location | escape }}</span>
         <br />
     {%- if post.image -%}
-        <img src="{{- post.image | relative_url -}}" alt="" class="post-image">
+        <a class="post-link" href="{{ post.url | relative_url }}"><img src="{{- post.image | relative_url -}}" alt="" class="post-image"></a>
     {%- else -%}
         {%- assign postImage = "" -%}
     {%- endif -%}
