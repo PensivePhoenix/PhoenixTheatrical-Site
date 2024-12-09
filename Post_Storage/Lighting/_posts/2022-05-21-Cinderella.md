@@ -26,6 +26,10 @@ Production Team
 {: .attributions }
 
 # Duties and Responsibilities
+- Design Show based on submitted videos
+- Program ETC EOS using visualizer
+- Network QLab to ETC EOS
+- Hang, Focus, and Cable supplementary LX fixtures and effect fixtures
+- Stagehand work as needed
 
-
-{% include image-gallery.html folder="/images/galleries/Cinderella_DSB" %}
+{% include image-gallery.html folder=page.gallery %}

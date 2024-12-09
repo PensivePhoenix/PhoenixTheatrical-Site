@@ -45,4 +45,4 @@ Production Team
   - 2 mics on each cast member
   - 12 mics total across cast and band
 
-{% include image-gallery.html folder="/images/galleries/Closer_Than_Ever" %}
+{% include image-gallery.html folder=page.gallery %}
