@@ -2,7 +2,7 @@
 layout: post-undated
 title:  Closer Than Ever
 venue: Pittsburgh Playhouse
-location: Pittsburgh PA
+location: Pittsburgh, PA
 image: images/galleries/Closer_Than_Ever/53268278849_c9f8575585_o.jpg
 date: 2023-10-22
 excerpt:
